@@ -11,7 +11,7 @@ function checkAnswer() {
     
     // Check if the user selected an answer
     if (userAnswer) {
-        // Compare user's answer with the correct answer
+        // Compare the user's selected value to the correct answer
         if (userAnswer.value === correctAnswer) {
             feedback.textContent = "Correct! Well done.";
             feedback.style.color = "green";  // Set feedback color to green
